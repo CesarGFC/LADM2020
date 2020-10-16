@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFF35"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:paddingHorizontal="@android:dimen/app_icon_size"
+        android:src="@drawable/cinco" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="458dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:text="TIPS          TO BUILD A LANGUAGE LEARNING HABIT"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/holo_blue_light"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/holo_purple" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_weight="6">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="5dp"
+            android:text="+ free New Habit Tracker!"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+
+            android:background="@drawable/papel" />
+    </RelativeLayout>
+
+</LinearLayout>
